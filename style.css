@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ce89f4;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+header .boton {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e3a1f4;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .boton:hover {
+    background-color: #50d8f7;
+}
+
+/* Estilos para las secciones */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    max-width: 50%; 
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+    text-shadow: 2px 2px 5px #e3a1f4;
+}
+
+.section ul {
+    list-style-type:none;
+}
+
+#contacto {
+    text-align: center;
+}
+
+.section a {
+    color: #e3a1f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section a:hover {
+    text-decoration:overline;
+}
