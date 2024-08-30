@@ -24,8 +24,7 @@ header {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.4);
     color: #ce89f4;
-    width: 100%;
-    max-width: 500px; 
+    width: 80%;
     box-sizing: border-box; 
     border-radius: 10px;
 }
@@ -49,8 +48,7 @@ header .boton {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    width: 80%; 
-    max-width: 250px; 
+    width: 70%; 
     text-align: center;
 }
 
@@ -62,8 +60,7 @@ header .boton:hover {
 .section {
     padding: 30px 10px;
     margin: 20px auto;
-    width: 100%;
-    max-width: 500px; 
+    width: 80%;
     background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px; 
     box-sizing: border-box; 
